@@ -1,6 +1,17 @@
 [
   {
     "name": "TurtleCode File Hosting",
-    "hostname": "filehost.turtlecode.me"
+    "hostname": "filehost.turtlecode.me",
+    "github": "TurtleCode84/turtlecode.me"
+  },
+  {
+    "name": "TurtleCraft SMP",
+    "hostname": "mc.turtlecode.me",
+    "github": "TurtleCode84/turtlecode.me"
+  },
+  {
+    "name": "TurtleCode Portfolio",
+    "hostname": "portfolio.turtlecode.me",
+    "github": "TurtleCode84/turtlecode.me"
   }
 ]
