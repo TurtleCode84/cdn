@@ -3,10 +3,5 @@
     "name": "TurtleCode Portfolio",
     "hostname": "portfolio.turtlecode.me",
     "github": "TurtleCode84/turtlecode.me"
-  },
-  {
-    "name": "Turtle's Essays",
-    "hostname": "essays.turtlecode.me",
-    "github": "TurtleCode84/essays"
-  }  
+  }
 ]
