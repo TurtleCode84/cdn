@@ -1,4 +1,4 @@
-# Pi-hole adlist to block analytics/IP logging on blazeapp.net
+# Pi-hole adlist to block analytics/IP logging on Wix sites
 # Created by radi8 (https://github.com/radeeyate)
 
 ||ipify.org^
